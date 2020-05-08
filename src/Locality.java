@@ -1,4 +1,4 @@
-public class Crew {
+public class Locality {
 
     //region Constructors
 

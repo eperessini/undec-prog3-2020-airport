@@ -1,4 +1,4 @@
-public class Airlane {
+public class Airline {
     int id;
     String name;
     String description;
@@ -7,7 +7,7 @@ public class Airlane {
 
     //region Constructors
 
-    public Airlane(int id, String name, String description, City city, String postalCode) {
+    public Airline(int id, String name, String description, City city, String postalCode) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -15,7 +15,7 @@ public class Airlane {
         this.postalCode = postalCode;
     }
 
-    public Airlane() {}
+    public Airline() {}
 
     //endregion
 

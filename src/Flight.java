@@ -6,19 +6,19 @@ public class Flight {
     Date departureDate;
     Airport arrivalAirport;
     Date arrivalDate;
-    Airlane airlane;
+    Airline airline;
     Crew crew;
     Airplane airplane;
 
     //region Constructors
 
-    public Flight(int id, Airport departureAirport, Date departureDate, Airport arrivalAirport, Date arrivalDate, Airlane airlane, Crew crew, Airplane airplane) {
+    public Flight(int id, Airport departureAirport, Date departureDate, Airport arrivalAirport, Date arrivalDate, Airline airline, Crew crew, Airplane airplane) {
         this.id = id;
         this.departureAirport = departureAirport;
         this.departureDate = departureDate;
         this.arrivalAirport = arrivalAirport;
         this.arrivalDate = arrivalDate;
-        this.airlane = airlane;
+        this.airline = airline;
         this.crew = crew;
         this.airplane = airplane;
     }
@@ -69,12 +69,12 @@ public class Flight {
         this.arrivalDate = arrivalDate;
     }
 
-    public Airlane getAirlane() {
-        return airlane;
+    public Airline getAirline() {
+        return airline;
     }
 
-    public void setAirlane(Airlane airlane) {
-        this.airlane = airlane;
+    public void setAirline(Airline airline) {
+        this.airline = airline;
     }
 
     public Crew getCrew() {
