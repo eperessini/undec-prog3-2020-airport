@@ -97,6 +97,10 @@ public class Flight {
 
     //region Methods
 
+    public void createFlight(){}
+    public void readFlight(){}
+    public void updateFlight(){}
+    public void deleteFlight(){}
 
     //endregion Methods
 }

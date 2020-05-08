@@ -65,10 +65,10 @@ public class Airline {
 
     //region Methods
 
-    public void createAirlane(){}
-    public void readAirlane(){}
-    public void updateAirlane(){}
-    public void deleteAirlane(){}
+    public void createAirline(){}
+    public void readAirline(){}
+    public void updateAirline(){}
+    public void deleteAirline(){}
 
     //endregion
 }
