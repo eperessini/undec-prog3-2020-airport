@@ -1,6 +1,6 @@
 public class Airplane {
     int id;
-    int registrationNumber;
+    String registrationNumber;
     String model;
     int passengerCapacity;
     Airline airline;
@@ -9,7 +9,7 @@ public class Airplane {
 
     //region Constructors
 
-    public Airplane(int id, int registrationNumber, String model, int passengerCapacity, Airline airline, int productionYear, Status status) {
+    public Airplane(int id, String registrationNumber, String model, int passengerCapacity, Airline airline, int productionYear, Status status) {
         this.id = id;
         this.registrationNumber = registrationNumber;
         this.model = model;
@@ -33,11 +33,11 @@ public class Airplane {
         this.id = id;
     }
 
-    public int getRegistrationNumber() {
+    public String getRegistrationNumber() {
         return registrationNumber;
     }
 
-    public void setRegistrationNumber(int registrationNumber) {
+    public void setRegistrationNumber(String registrationNumber) {
         this.registrationNumber = registrationNumber;
     }
 
@@ -85,7 +85,33 @@ public class Airplane {
 
     //region Methods
 
-    public void createAirplane(){}
+    public Airplane createAirplane(int id, String registrationNumber, String model, int passengerCapacity, Airline airline, int productionYear, Status status) throws NullAirplaneExceptions {
+
+        if(registrationNumber == null || model == null || productionYear == 0 ) {
+            throw new NullAirplaneExceptions("Invalid value for a parameter");
+        }
+
+        if (registrationNumberValidation(registrationNumber) == false){
+            throw new NullAirplaneExceptions("The format does not match the nomenclature");
+        }
+
+        Airplane airplane = new Airplane();
+        airplane.setId(id);
+        airplane.setRegistrationNumber(registrationNumber);
+        airplane.setModel(model);
+        airplane.setPassengerCapacity(passengerCapacity);
+        airplane.setAirline(airline);
+        airplane.setProductionYear(productionYear);
+        airplane.setStatus(status);
+        return airplane;
+    }
+
+    private boolean registrationNumberValidation(String registrationNumber) {
+        boolean result;
+        result = false;
+        return result;
+    }
+
     public void readAirplane(){}
     public void updateAirplane(){}
     public void deleteAirplane(){}

@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2d84f810-6a9a-492a-9bd3-2c4145b7c6bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Airline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Airline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice n 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practice n 2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Airport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Country.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Locality.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilot.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +25,15 @@
   </component>
   <component name="ProjectId" id="1bZuIqbF7pXYl0MGP0ygSFlW34s" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../TestCA/TestCA" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -50,6 +52,33 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.TestsAirport.testNewPlane">
+    <configuration name="TestsAirport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice n 2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsAirport" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestsAirport.testNewPlane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice n 2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsAirport" />
+      <option name="METHOD_NAME" value="testNewPlane" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestsAirport.testNewPlane" />
+        <item itemvalue="JUnit.TestsAirport" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -63,7 +92,12 @@
       <workItem from="1588851869883" duration="3962000" />
       <workItem from="1588870127957" duration="501000" />
       <workItem from="1588897520764" duration="3711000" />
-      <workItem from="1588937786935" duration="3034000" />
+      <workItem from="1588937786935" duration="3634000" />
+      <workItem from="1588945951304" duration="602000" />
+      <workItem from="1589796864728" duration="3421000" />
+      <workItem from="1589838117471" duration="8971000" />
+      <workItem from="1589851424927" duration="250000" />
+      <workItem from="1589854257540" duration="782000" />
     </task>
     <servers />
   </component>
