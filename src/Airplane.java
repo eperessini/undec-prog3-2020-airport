@@ -87,15 +87,16 @@ public class Airplane {
 
     public Airplane createAirplane(int id, String registrationNumber, String model, int passengerCapacity, Airline airline, int productionYear, Status status) throws NullAirplaneExceptions {
 
+        Airplane airplane = new Airplane();
+
         if(registrationNumber == null || model == null || productionYear == 0 ) {
             throw new NullAirplaneExceptions("Invalid value for a parameter");
         }
 
-        if (registrationNumberValidation(registrationNumber) == false){
+        if (airplane.registrationNumberValidation(registrationNumber) != true){
             throw new NullAirplaneExceptions("The format does not match the nomenclature");
         }
 
-        Airplane airplane = new Airplane();
         airplane.setId(id);
         airplane.setRegistrationNumber(registrationNumber);
         airplane.setModel(model);
@@ -106,10 +107,13 @@ public class Airplane {
         return airplane;
     }
 
-    private boolean registrationNumberValidation(String registrationNumber) {
-        boolean result;
-        result = false;
-        return result;
+    public boolean registrationNumberValidation(String registrationNumber) {
+
+        //registrationNumber.charAt(0) != 'L' || registrationNumber.charAt(1) != 'V' || registrationNumber.charAt(2) != '-'
+        if (registrationNumber.length() != 6 || registrationNumber.charAt(2) != '-'){
+            return false;
+        }
+        return true;
     }
 
     public void readAirplane(){}

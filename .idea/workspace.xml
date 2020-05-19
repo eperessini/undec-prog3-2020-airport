@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2d84f810-6a9a-492a-9bd3-2c4145b7c6bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice n 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practice n 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice n 2/Airplane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice n 2/Airplane.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice n 2/TestsAirport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice n 2/TestsAirport.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestsAirport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestsAirport.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestsAirport.testNewPlane">
+  <component name="RunManager" selected="JUnit.TestsAirport">
     <configuration name="TestsAirport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice n 2" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,8 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestsAirport.testNewPlane" />
         <item itemvalue="JUnit.TestsAirport" />
+        <item itemvalue="JUnit.TestsAirport.testNewPlane" />
       </list>
     </recent_temporary>
   </component>
@@ -98,6 +99,9 @@
       <workItem from="1589838117471" duration="8971000" />
       <workItem from="1589851424927" duration="250000" />
       <workItem from="1589854257540" duration="782000" />
+      <workItem from="1589877722486" duration="1525000" />
+      <workItem from="1589881538316" duration="1901000" />
+      <workItem from="1589886051801" duration="4125000" />
     </task>
     <servers />
   </component>
