@@ -101,7 +101,7 @@ public class Pilot {
         return pilot;
     }
 
-    public boolean pilotCuilValidation(String cuil) {
+    public static boolean pilotCuilValidation(String cuil) {
 
         if (cuil.length() != 13 || cuil.charAt(2) != '-' || cuil.charAt(11) != '-'){
             return false;

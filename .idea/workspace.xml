@@ -3,13 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="2d84f810-6a9a-492a-9bd3-2c4145b7c6bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice n 2/Airline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice n 2/Airline.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/practice n 2/Airport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice n 2/Airport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice n 2/City.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice n 2/City.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice n 2/Pilot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice n 2/Pilot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/practice n 2/TestsAirplane.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice n 2/TestsAirplane.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/practice n 2/TestsAirport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice n 2/TestsAirport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/practice n 2/TestsPilot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/practice n 2/TestsPilot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Airline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Airline.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Airport.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestsAirport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestsAirplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pilot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestsAirplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestsAirplane.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +61,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestsAirport.testAirportCreationFails">
+  <component name="RunManager" selected="JUnit.TestsAirline">
+    <configuration name="TestsAirline" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice n 2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsAirline" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestsAirline.testAirlineCreationFails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice n 2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsAirline" />
+      <option name="METHOD_NAME" value="testAirlineCreationFails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestsAirline.testAirlineCreationSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice n 2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestsAirline" />
+      <option name="METHOD_NAME" value="testAirlineCreationSuccessful" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestsAirport.testAirportCreationFails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="practice n 2" />
       <option name="PACKAGE_NAME" value="" />
@@ -80,43 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestsPilot.PruebaEdad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practice n 2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestsPilot" />
-      <option name="METHOD_NAME" value="PruebaEdad" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestsPilot.testPilotCreationFails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practice n 2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestsPilot" />
-      <option name="METHOD_NAME" value="testPilotCreationFails" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestsPilot.testPilotCreationSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="practice n 2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestsPilot" />
-      <option name="METHOD_NAME" value="testPilotCreationSuccessful" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestsAirline" />
+        <item itemvalue="JUnit.TestsAirline.testAirlineCreationFails" />
+        <item itemvalue="JUnit.TestsAirline.testAirlineCreationSuccessful" />
         <item itemvalue="JUnit.TestsAirport.testAirportCreationFails" />
         <item itemvalue="JUnit.TestsAirport.testAirportCreationSuccessful" />
-        <item itemvalue="JUnit.TestsPilot.testPilotCreationFails" />
-        <item itemvalue="JUnit.TestsPilot.PruebaEdad" />
-        <item itemvalue="JUnit.TestsPilot.testPilotCreationSuccessful" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +146,12 @@
       <workItem from="1589923416376" duration="4548000" />
       <workItem from="1589933807743" duration="1359000" />
       <workItem from="1589935534987" duration="4068000" />
+      <workItem from="1589940077309" duration="231000" />
+      <workItem from="1589940769705" duration="354000" />
+      <workItem from="1589977311048" duration="601000" />
+      <workItem from="1589978079031" duration="663000" />
+      <workItem from="1589979043650" duration="219000" />
+      <workItem from="1589980796610" duration="5196000" />
     </task>
     <servers />
   </component>
@@ -163,16 +170,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Airline.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

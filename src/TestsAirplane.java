@@ -13,7 +13,6 @@ public class TestsAirplane {
 
     @Test
     public void testAirplaneCreationFails () throws NullAirplaneExceptions {
-        // In this test, the parameters doesn't respect the restrictions
 
         // parameter registrationNumber doesn't respect the restriction
         Assert.assertNotNull(Airplane.createAirplane(0001, "015GIK", "Apache", 3000, null, 2000, null));

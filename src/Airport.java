@@ -81,6 +81,7 @@ public class Airport {
         airport.setIataCode(iataCode.toUpperCase());
         airport.setName(name);
         airport.setCity(city);
+        airport.setPostalCode(city.getPostalCode());
         return airport;
     }
 
