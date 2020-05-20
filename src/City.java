@@ -48,7 +48,7 @@ public class City {
 
     //region Methods
 
-    public void createCity(){}
+    public static void createCity(){}
     public void readCity(){}
     public void updateCity(){}
     public void deleteCity(){}
