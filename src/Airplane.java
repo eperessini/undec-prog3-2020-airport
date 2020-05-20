@@ -85,7 +85,7 @@ public class Airplane {
 
     //region Methods
 
-    public Airplane createAirplane(int id, String registrationNumber, String model, int passengerCapacity, Airline airline, int productionYear, Status status) throws NullAirplaneExceptions {
+    public static Airplane createAirplane(int id, String registrationNumber, String model, int passengerCapacity, Airline airline, int productionYear, Status status) throws NullAirplaneExceptions {
 
         Airplane airplane = new Airplane();
 
