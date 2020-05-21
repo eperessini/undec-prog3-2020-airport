@@ -146,5 +146,20 @@ public class Flight {
     public void updateFlight(){}
     public void deleteFlight(){}
 
+    @Override
+    public String toString() {
+        return "Flight{" +
+                "id=" + id +
+                ", flightCode='" + flightCode + '\'' +
+                ", departureDate=" + departureDate +
+                ", arrivalDate=" + arrivalDate +
+                ", departureAirport=" + departureAirport +
+                ", arrivalAirport=" + arrivalAirport +
+                ", airplane=" + airplane +
+                ", crew=" + crew +
+                ", airline=" + airline +
+                '}';
+    }
+
     //endregion Methods
 }
